@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Algida_Ice_Cream</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>linecolor+version+svg+ice+cream-1319964494028526965.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Img\**" />
+    <EmbeddedResource Remove="Img\**" />
+    <None Remove="Img\**" />
+    <Page Remove="Img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="linecolor+version+svg+ice+cream-1319964494028526965.ico" />
+  </ItemGroup>
+
+</Project>
